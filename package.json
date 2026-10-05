@@ -1,0 +1,15 @@
+{
+  "name": "skillforge",
+  "version": "1.0.0",
+  "description": "SkillForge - Learn. Exchange. Build. MERN Platform",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "start": "node server/server.js",
+    "test": "npm --prefix server test && npm --prefix server run test:phase2",
+    "seed": "npm --prefix server run seed",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
