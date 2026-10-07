@@ -14,7 +14,7 @@ import {
   SKILL_INTENTS,
   SKILL_LEVELS,
 } from '../config/constants.js';
-import AppError from './utils/AppError.js';
+import AppError from '../utils/AppError.js';
 
 /**
  * Helper to verify that the requesting user is either the creator
